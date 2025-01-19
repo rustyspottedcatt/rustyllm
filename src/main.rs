@@ -13,7 +13,7 @@ mod model {
 
 fn main() {
     println!("Step 1: Loading Dataset...");
-    let dataset_path = "";
+    let dataset_path = "idk where to get data from";
     let train_texts = fs::read_to_string(dataset_path).expect("Failed to load dataset");
     println!("Dataset loaded. Number of samples: {}", train_texts.lines().count());
 
